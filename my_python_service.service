@@ -1,13 +1,9 @@
 [Unit]
 Description=Python script as a service
-After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3/home/vaezi/Desktop/script.py
+ExecStart=/usr/bin/python3 /home/vaezi/Desktop/script.py
 Restart=always
-RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
-
-

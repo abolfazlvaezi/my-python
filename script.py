@@ -3,5 +3,6 @@ import sys
 
 while True:
     print("I'm alive")
-    sys.stdout.flush()  ه
+    sys.stdout.flush() 
     time.sleep(5)
+

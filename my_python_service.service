@@ -4,7 +4,7 @@ Description=Python Service
 [Service]
 ExecStart=/usr/bin/python3 /home/your_user/your_project/script.py
 Restart=always
-User=your_user
 
 [Install]
+
 WantedBy=multi-user.target
